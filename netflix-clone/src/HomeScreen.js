@@ -5,7 +5,28 @@ import Nav from "./Nav.js"
 function HomeScreen() {
     return <div className="HomeScreen">
         <Nav />
-        
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
+        <h1>okay</h1>
 
         {/* Banner */}
 
