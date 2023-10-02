@@ -5,6 +5,7 @@ import Nav from "./Nav.js"
 function HomeScreen() {
     return <div className="HomeScreen">
         <Nav />
+        
 
         {/* Banner */}
 

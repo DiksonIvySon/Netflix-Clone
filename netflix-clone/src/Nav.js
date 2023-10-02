@@ -1,12 +1,15 @@
 import React from 'react'
 import "./Nav.css"
-import netflixImage from "./images/netflix-image.webp";
+import netflixLogo from "./images/netflixLogo-transparent.png";
+import avatar2 from "./images/netflix-avatar2.png"
 
 function Nav() {
   return (
-    <div className='nav'>
-        <img src={netflixImage}/>
-        <h1>The nav</h1>
+    <div className='nav nav_black'>
+        <div className='nav_contents'>
+            <img className='netflixLogo' src={netflixLogo}/>
+            <img className='netflixAvatar' src={avatar2}/>
+        </div>
     </div>
   )
 }
