@@ -1,34 +1,12 @@
 import React from "react";
 import "./HomeScreen.css"
 import Nav from "./Nav.js"
+import Banner from "./Banner.js"
 
 function HomeScreen() {
     return <div className="HomeScreen">
         <Nav />
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-        <h1>okay</h1>
-
-        {/* Banner */}
+        <Banner />
 
         {/* Row */}
     </div>
