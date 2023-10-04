@@ -3,6 +3,11 @@ import "./Banner.css"
 import netflixBanner from "./images/netflix-banner.webp"
 
 function Banner() {
+
+    function truncate(string, n) {
+        return string?.length > n ? string.substr(0, n-1) + '...' : string;
+    }
+
   return (
     <header className='banner'
     style={{backgroundSize: "cover",
@@ -16,7 +21,10 @@ function Banner() {
                 <button className='banner-button'>Play</button>
                 <button className='banner-button'>My List</button>
             </div>
-            <h1 className='banner-description'>The coolest movie in this session</h1>
+            <h1 className='banner-description'>
+                {truncate(`The coolest movie in this session The coolest movie in this session
+                The coolest movie in this session The coolest movie in this session`,150)}    
+            </h1>
         </div>
 
         <div className='banner-fadeButton'></div>
