@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import "./Banner.css";
-import netflixBanner from "./images/netflix-banner.webp";
 import axios from "./axios";
 import requests from './Request';
 
