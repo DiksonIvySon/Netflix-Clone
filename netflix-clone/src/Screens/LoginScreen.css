@@ -6,6 +6,31 @@
     background-size: cover;
 }
 
+.loginScreen-body {
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    z-index: 1;
+}
+
+.loginScreen-body h1 {
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+}
+
+.loginScreen-body h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.loginScreen-body h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
 .loginScreen-logo {
     position: fixed;
     left: 0;
@@ -30,5 +55,34 @@
     width: 100%;
     z-index: 1;
     height: 100vh;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.4);
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8) 100%,
+    );
+}
+
+.loginScreen-input {
+    margin: 20px;
+}
+
+.loginScreen-input > form > input {
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+}
+
+.loginScreen-getStarted {
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
 }
