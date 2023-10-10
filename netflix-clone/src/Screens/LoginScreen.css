@@ -9,6 +9,8 @@
 .loginScreen-body {
     position: absolute;
     top: 30%;
+    left: 0;
+    right: 0;
     text-align: center;
     color: #fff;
     padding: 20px;

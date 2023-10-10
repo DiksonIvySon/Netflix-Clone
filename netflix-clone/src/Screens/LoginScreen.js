@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./LoginScreen.css";
 import netflixLogo from "../images/netflixLogo-transparent.png";
+import SignUpScreen from './SignUpScreen';
 
 function LoginScreen() {
 
@@ -15,7 +16,7 @@ function LoginScreen() {
         </div>
         <div className='loginScreen-body'>
             {SignIn ? (
-                <SignInScreen />
+                <SignUpScreen />
             ) : (
                 <>
                     <h1>Unlimited films, TV programmes and more.</h1>
